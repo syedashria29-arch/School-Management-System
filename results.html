@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Results</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>📝 Examination Results</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="students.html">Students</a>
+    <a href="teachers.html">Teachers</a>
+    <a href="attendance.html">Attendance</a>
+    <a href="timetable.html">Timetable</a>
+    <a href="fees.html">Fees</a>
+    <a href="results.html">Results</a>
+    <a href="parents.html">Parents</a>
+    <a href="notices.html">Notices</a>
+</nav>
+
+<div class="container">
+
+<div class="form-box">
+
+<h2>Calculate Result</h2>
+
+<input placeholder="Student Name">
+
+<input id="mark1" type="number" placeholder="Subject 1">
+
+<input id="mark2" type="number" placeholder="Subject 2">
+
+<input id="mark3" type="number" placeholder="Subject 3">
+
+<input id="mark4" type="number" placeholder="Subject 4">
+
+<input id="mark5" type="number" placeholder="Subject 5">
+
+<button onclick="calculateResult()">Calculate Result</button>
+
+<h3 id="totalMarks"></h3>
+
+<h3 id="percentage"></h3>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

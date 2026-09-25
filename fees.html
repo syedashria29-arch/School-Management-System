@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Fees</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>💰 Fee Management</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="students.html">Students</a>
+    <a href="teachers.html">Teachers</a>
+    <a href="attendance.html">Attendance</a>
+    <a href="timetable.html">Timetable</a>
+    <a href="fees.html">Fees</a>
+    <a href="results.html">Results</a>
+    <a href="parents.html">Parents</a>
+    <a href="notices.html">Notices</a>
+</nav>
+
+<div class="container">
+
+<div class="form-box">
+
+<h2>Calculate Fees</h2>
+
+<input placeholder="Student Name">
+
+<input id="totalFees"
+type="number"
+placeholder="Total Fees">
+
+<input id="paidFees"
+type="number"
+placeholder="Paid Fees">
+
+<button onclick="calculateFees()">Calculate</button>
+
+<input id="pendingFees"
+placeholder="Pending Fees"
+readonly>
+
+</div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
